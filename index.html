@@ -6,21 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>김은하이력서</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/eee23f3809.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container flex flex-col  w-81 mt-20  mx-auto ">
+    <div class="container flex flex-col mt-20  mx-auto font-sans ">
         <div class="link text-right">
-            <a href="https://github.com/mayo516"><i class="m-3 text-3xl fa-brands fa-github "></i>
-                <a href="https://devwater.tistory.com/"> <i class="text-3xl fa-solid fa-t"></i></a>
+            <a href="https://github.com/mayo516"><i class="m-3 text-5xl fa-brands fa-github "></i>
+                <a class="mr-20" href="https://devwater.tistory.com/"> <i class="text-5xl fa-solid fa-t"></i></a>
         </div>
-        <div class="intro ">인트로</div>
-        <div class="about-me">어바웃미</div>
-        <div class="poject">프로젝트</div>
-        <div class="experince">경험</div>
-        <div class="skill-edu">기술/교육</div>
+        <section class="intro flex">
+            <img class="rounded-full w-1/4" src="babylion.PNG" alt="프로필사진">
+            <div class="flex-col flex gap-0.5 font-black justify-center ml-10">
+                <div
+                    class=" text-8xl font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                    멋쟁이 사자같은 개발자</div>
+                <div
+                    class=" text-8xl font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                    김은하입니다</div>
+                <div class="text-xl text-stone text-stone-400 mt-10 ml-3 ">dmsgk2323@likelion.org</div>
+                <div class="text-xl text-stone text-stone-400  mt-1 ml-3  ">010-0000-0000</div>
+            </div>
+
+        </section>
+        <section class="poject">프로젝트</section>
+        <section class="about-me">어바웃미</section>
+        <section class="experince">경험</section>
+        <section class="skill-edu">기술/교육</section>
     </div>
 </body>
 
